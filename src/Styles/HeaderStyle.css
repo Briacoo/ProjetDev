@@ -1,0 +1,38 @@
+nav{
+    background-color: var(--primary-color);
+    
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.nav-main .flex{
+    display: flex;
+}
+
+.nav-main div li{
+    gap: 10px;
+    display: flex;
+}
+
+.nav-main div a .img{
+    height: 16px;
+    width: auto;
+    gap: 10px;
+}
+
+.nav-main div a .logo{
+    height: 40px;
+    width: auto;
+}
+
+.nav-middle{
+    gap: 10px;
+    color: var(--text-color);
+}
