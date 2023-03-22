@@ -1,40 +1,37 @@
 import '../Styles/FooterStyle.css'
 
-function Footer() {
-    return ( 
-        <footer>
-            <div className='footer-main'>
-                <div>
-                    <ul>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                        <li>blabla</li>
-                    </ul>
-                </div>
-
-            </div>
-        </footer>
-     );
+function Footer () {
+  return (
+    <footer className='footer'>
+      <div className='col'>
+        <ul>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+        </ul>
+      </div>
+      <div className='col'>
+        <ul>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+        </ul>
+      </div>
+      <div className='col'>
+        <ul>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+          <li>toto</li>
+        </ul>
+      </div>
+    </footer>
+  )
 }
 
-export default Footer;
+export default Footer

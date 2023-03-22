@@ -1,3 +1,8 @@
+*{
+    list-style: none;
+
+}
+
 nav{
     background-color: var(--primary-color);
     
@@ -16,7 +21,7 @@ nav{
     display: flex;
 }
 
-.nav-main div li{
+.nav-main div a{
     gap: 10px;
     display: flex;
 }
@@ -32,7 +37,11 @@ nav{
     width: auto;
 }
 
-.nav-middle{
+.nav-middle a{
     gap: 10px;
     color: var(--text-color);
+}
+
+.nav-middle {
+    gap: 10px;
 }
