@@ -16,9 +16,9 @@ function Header () {
             </ul>
           </div>
           <div className='flex'>
-            <a href='#'><img className='img' src='assets/icon/facebook.png' alt='Icon Facebook' /></a>
-            <a href='#'><img className='img' src='assets/icon/instagram.png' alt="Icon d'Instagram" /></a>
-            <a href='#'><img className='img' src='assets/icon/linkedin.png' alt='Icon de Linkedin' /></a>
+            <a href='#'><img className='img' src='/assets/icon/facebook.png' alt='Icon Facebook' /></a>
+            <a href='#'><img className='img' src='/assets/icon/instagram.png' alt="Icon d'Instagram" /></a>
+            <a href='#'><img className='img' src='/assets/icon/linkedin.png' alt='Icon de Linkedin' /></a>
           </div>
         </div>
       </nav>
