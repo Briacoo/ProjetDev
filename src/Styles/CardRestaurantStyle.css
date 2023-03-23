@@ -1,5 +1,11 @@
 .card{
     display: flex;
     border: 1px solid #000;
+    align-items: center;
+    overflow: hidden;
 }
 
+.card .img-restaurant img{
+    width: 450px;
+    height: 100%;
+}

@@ -1,0 +1,9 @@
+.card-dishes{
+    align-items: center;
+    text-align: center;
+}
+
+.card-dishes .img-plat{
+    height: 100px;
+    width: auto;
+}

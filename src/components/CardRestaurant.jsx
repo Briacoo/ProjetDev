@@ -4,7 +4,6 @@ const IMAGE_URL = 'http://localhost:1337'
 
 function CardInfo ({ restaurant }) {
   const attributes = restaurant.attributes
-  console.log(attributes)
   let imageUrl = ''
   if (attributes.image.data) {
     imageUrl = IMAGE_URL + attributes.image.data.attributes.url
